@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  slug: MyString
+  title: MyString
+  parent_id: 1
+  content: MyText
+  seo_title: MyString
+  seo_desc: MyString
+  seo_keys: MyString
+
+two:
+  slug: MyString
+  title: MyString
+  parent_id: 1
+  content: MyText
+  seo_title: MyString
+  seo_desc: MyString
+  seo_keys: MyString

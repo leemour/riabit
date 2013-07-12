@@ -1,0 +1,22 @@
+%nav.navbar
+  .navbar-inner
+    .container
+
+      %a.btn.btn-navbar{'data-target' => ".nav-collapse", 'data-toggle' => "collapse", :type => "button"}
+        - 3.times do
+          %span.icon-bar
+
+      .nav-collapse.collapse
+        %ul.nav
+          %li
+            = link_to 'Главная', root_path, class: 'brand'
+          %li
+            =link_to 'Страницы', pages_path
+          %li
+            =link_to 'Обо мне', page_path(:about)
+          %li
+            =link_to 'Работы', page_path(:works)
+          %li
+            =link_to 'Услуги', page_path(:services)
+          %li
+            =link_to 'Контакты', page_path(:contacts)
